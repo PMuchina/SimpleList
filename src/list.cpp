@@ -63,6 +63,7 @@ void List::delete_item() {
     }
     else {
         cout << "No items to delete.\n";
+        cout << "Well done";
     }
 
     print_menu();
