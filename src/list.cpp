@@ -59,7 +59,7 @@ void List::delete_item() {
         }
         int choiceNum;
         cin >> choiceNum;
-        list.erase(list.begin()+choiceNum);
+        list.erase(list.begin() + choiceNum);
     }
     else {
         cout << "No items to delete.\n";
